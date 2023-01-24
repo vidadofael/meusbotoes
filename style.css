@@ -1,0 +1,79 @@
+body {
+    background-color: #ffffff;
+    color: white;
+    font-family: sans-serif;
+}
+
+.sessao-laranja {
+    background-color: #20283d;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.sessao-verde {
+    background-color: #3b0239;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.pulse {
+    background: none;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 50px;
+    color: #ff760c;
+    padding: 15px 40px;
+    transition: .25s;
+
+}
+
+.pulse:hover, .pulse:focus {
+    background: #ff760c;
+    color: white;
+    border-color: #ff760c;
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+    animation: pulsar 1s;
+    
+
+}
+
+@keyframes pulsar {
+    0% {
+        box-shadow: 0 0 0 0 #ef8f6e;
+        border-color: black;
+    }
+    
+}
+
+
+.pulse-verde {
+    background: none;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 50px;
+    color: #539937;
+    padding: 15px 40px;
+    transition: .25s;
+}
+
+.pulse-verde:hover, .pulse-verde:focus {
+    background: #309417;
+    color: white;
+    border-color: #034709;
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+    animation: pulsar-verde 1s;
+    
+
+}
+
+@keyframes pulsar-verde {
+    0% {
+        box-shadow: 0 0 0 0 #a2ef6e;
+        border-color: black;
+    }
+    
+}
